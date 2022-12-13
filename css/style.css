@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -8,8 +10,15 @@ ul {
   list-style-type: none;
 }
 
+.container{
+  max-width: 950px;
+  margin: 0 auto;
+  line-height: 1.4rem;
+  margin-top: 3.5rem;
+}
+
 img {
-  max-width: 100%;
+  max-width: 180%;
 }
 
 .card{
@@ -104,9 +113,9 @@ p {
   color: hsl(228, 45%, 44%); 
 }
 
-@media (min-width: 500px) {
+@media (min-width: 350px) {
   .container {
-    width: 350px;
-    margin: auto auto;
+    width: 400px;
+    margin: auto 1rem;
   }
 }
