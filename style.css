@@ -10,6 +10,13 @@ ul {
   list-style-type: none;
 }
 
+.container{
+  max-width: 950px;
+  margin: 0 auto;
+  line-height: 1.4rem;
+  margin-top: 3.5rem;
+}
+
 img {
   max-width: 180%;
 }
@@ -106,9 +113,9 @@ p {
   color: hsl(228, 45%, 44%); 
 }
 
-@media (min-width: 500px) {
+@media (min-width: 350px) {
   .container {
-    width: 350px;
-    margin: auto auto;
+    width: 400px;
+    margin: auto 1rem;
   }
 }
