@@ -35,10 +35,9 @@ body {
   align-items: center;
   width: 100%;
   height: 100vh;
-  background-image: url(images/pattern-background-desktop.svg);
+  background: url(../images/pattern-background-desktop.svg) hsl(225, 100%, 94%);
   background-repeat: no-repeat;
-  background-size: 100% 50%;
-  background-color: hsl(225, 100%, 94%);
+  background-size: 100% 50vmin;
 }
 
 .card-title{
